@@ -1,0 +1,181 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+  .profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .head, .headline, h2 {
+    text-align: center;
+  }
+  
+  .head, .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 35%;
+  }
+  
+  .profile-image {
+    margin-top: -60px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .head, .about {
+    margin-bottom: 6%;
+  }
+  
+  .content {
+    padding: 5% 10%;
+  }
+  
+  .profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(176, 56%, 55%, .99) 10px 10px 80px;
+  }
+  
+  img {
+    padding: 1px;
+    background-color: #666;
+    opacity: 0.95;
+    filter: grayscale(30%);
+  }
+  
+  .content {
+     border-top: 1px solid hsla(0, 0%, 30%, .8); 
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    filter: grayscale(10%);
+  }
+  
+  h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 37px ;
+  }
+  
+  p{
+    font-family: 'Lora', serif;
+  }
+  
+  i {
+    color: rgba(8, 8, 8, 0.86);
+    margin: 10px 4px;
+    opacity: 1;
+  }
+
+  .headline, h1, h2 {
+    margin-top: 2%;
+    color: #A30026 ;
+  }
+
+  h2{
+    font-size: x-large;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  p {
+    font-size: 18px;
+    color: #A30026 ;
+    letter-spacing: 1px;
+    text-shadow: 1px 4px 14px rgb(80, 79, 79); 
+  }
+
+  i:hover {
+    opacity: 0.7;
+  }
+  
+  img {
+    --s: 250px;   /* the size of the image */
+    --b: 8px;     /* the border thickness*/
+    --g: 1px;    /* the gap */
+    --c: hsl(176, 56%, 55%); /* the color */
+    
+    width: var(--s);
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+  
+  img + img {
+    border-radius: 50%;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 50px;
+    place-content: center;
+    place-items: center;
+    background: #C8C8A9;
+  }
+  
+  body {
+    background: url(assets/blue.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
